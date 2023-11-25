@@ -47,9 +47,6 @@
     
 
 
-
-
-
 .navbar{
     z-index: 1;
     width: 100%;
@@ -74,18 +71,16 @@
    font-weight: 300px;
   
    color:  #412920;
-   text-decoration: none;
+
    position:relative;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }
 
 .signup{
-    color: #f0eeed;
+    color: #3f2417;
     font-size: 15px;
-   
-
-    border: none;
+    
     height: 30px;
     width: auto;
     border-radius: 15px;   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -155,18 +150,35 @@ nav ul li {
 .content-h1{
 
     font-weight: 500px;
-    font-size: 3.4rem;
+    font-size: 5.5rem;
     color:#ecdfc4;
   
   
 }
    
-.p{
-    font-size: 20px;
+.container p{
+    font-size: 1.4rem;
    color:#ecdfc4;
-  
- 
-  
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: left;
+}
+
+.btn-1{
+    height: 45px;
+    width: 150px;
+    background-color: #d3b570;
+    color: #3f2417;
+
+}
+
+.btn-2{
+    height: 45px;
+    width: 150px;
+   
+    color:#d3b570 ; 
+    border-style: solid; 
+    border-width: 1.3px;
+    border-color: #d3b570;
 }
 .contents{
     width: 50%;
@@ -211,14 +223,14 @@ nav ul li {
 }*/
 .about{
     width:100% ;
-    height: 350px;
+    height: 550px;
     padding: 50px 0px 90px;
    background: #dcb669; 
 }
 .about img{
-    height: 350px;
-    width: 340px;
-    border-radius:  75px;   
+    height: 500px;
+    width: 490px;
+    
     padding-bottom: 10;
     animation: 7s linear 0s infinite  slide;
    
@@ -304,8 +316,7 @@ button{
 
 .service{
     width:100% ;
-   
-    height: 400px;
+    height: 600px;
     background-color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -322,8 +333,6 @@ button{
     text-decoration: #e7dcc4;
     font-size: 20px;
     color:#2b1700;
-  
-    
 } 
 
 
@@ -335,8 +344,8 @@ button{
 
 }  
 .card{
-    height: 110px;
-    width: 190px;
+    height: 300px;
+    width: 290px;
     padding:20px 35px;
   /* background:#dcb669; */
    border-style:solid ;
@@ -363,8 +372,11 @@ button{
 p{
     color: black;
     text-align: center;
-    font-size:  15px;
-    line-height: 16px;
+    font-size:  1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+    line-height: 30px;
     margin-bottom: 25px;
     font-weight: 700px;
     
@@ -440,7 +452,6 @@ textarea{
     justify-content: left;
     color:  #2b1700;
     background: #dcb669;
-    border-radius: 7px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }

@@ -352,7 +352,7 @@ button{
  
    border-color:#dcb669;
    border-width:2px;
-    margin: 15px; 
+    margin: 25px; 
 
  
     overflow: hidden;
@@ -390,7 +390,7 @@ a{
 
 footer{
         padding: 5px;
-        height: 450px;
+        height: 350px;
       background: #2b1700;
     text-decoration: none;
         width: auto;

@@ -137,8 +137,6 @@ nav ul li {
    color:  #412920;
    text-decoration: none;
    position:relative;
-   
-
    padding: 6px 13px;
    border-radius:10%;
    font-weight:bold;
@@ -148,12 +146,9 @@ nav ul li {
   
 }
 .content-h1{
-
     font-weight: 500px;
     font-size: 5.5rem;
     color:#ecdfc4;
-  
-  
 }
    
 .container p{
@@ -320,7 +315,7 @@ button{
     background-color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.title {
+#ttitle {
     color: #2b1700;
     text-align: center;
     text-decoration: #e7dcc4;
@@ -388,7 +383,7 @@ a{
 }
 
 
-footer{
+#footerr{
         padding: 5px;
         height: 350px;
       background: #2b1700;

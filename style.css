@@ -13,7 +13,7 @@
     flex-wrap: wrap; */
     width: 100%;
     background-color:#2b1700;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -26,7 +26,7 @@
 @media screen and (max-width: 100px){
     
     .container{
-        height:550px;
+        height:500px;
         width: 100%;
         display: block;
         
@@ -37,16 +37,8 @@
         padding-right: 5%;
         box-sizing: border-box;
         position: relative;
-      
-    
-    
-    }
-    
-    
+    } 
 }
-    
-
-
 .navbar{
     z-index: 1;
     width: 100%;
@@ -69,9 +61,7 @@
     border: 1px solid transparent;
    font-style: normal;
    font-weight: 300px;
-  
    color:  #412920;
-
    position:relative;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
@@ -481,6 +471,13 @@ border-radius: 20px;
     background:white;
    
 }
+
+.copyright p{
+    font-size: 15px;
+
+}
+
+
 
 
 
